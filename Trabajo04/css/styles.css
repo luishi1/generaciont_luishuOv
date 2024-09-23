@@ -1,0 +1,57 @@
+/* styles.css */
+
+.contenedor {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tarjeta {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-imagen {
+    width: 500px; /* Tamaño fijo para todas las imágenes */
+    height: 250px; /* Tamaño fijo para todas las imágenes */
+    object-fit: cover; /* Para mantener la proporción de aspecto */
+}
+
+.contenido-tarjeta {
+    padding: 20px;
+}
+
+.tarjeta-titulo {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.tarjeta-texto {
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-primario {
+    background-color: #007bff;
+}
+
+.boton-secundario {
+    background-color: #6c757d;
+}
+
+.boton:hover {
+    opacity: 0.8;
+}

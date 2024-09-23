@@ -1,0 +1,113 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-image: url('header-background.jpg');
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: bold; 
+}
+
+/* Clase para los dinosaurios carnívoros */
+.carnivoros {
+    background-color: #8B0000; /* Rojo oscuro */
+    color: #FFF; /* Texto blanco */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Clase para los dinosaurios herbívoros */
+.herbivoros {
+    background-color: #90EE90; /* Verde claro */
+    color: #333; /* Texto oscuro */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Clase para los dinosaurios acuáticos */
+.acuaticos {
+    background-color: #153ae0; /* Azul oscuro */
+    color: #FFF; /* Texto blanco */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Clase para los dinosaurios voladores */
+.voladores {
+    background-color: #cbf532; /* Verde lima */
+    color: #333; /* Texto oscuro */
+    padding: 10px; /* Espaciado interno */
+}
+
+#trex {
+    font-size: 24px;
+    color: #FF4500; 
+}
+
+#triceratops {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.guias {
+    text-align: center;
+    color: #A52A2A; 
+}
+
+.atracciones {
+    letter-spacing: 2px;
+    border: 2px solid #FFD700; 
+    padding: 10px; 
+}
+
+/* Imágenes */
+img {
+    width: 200px; 
+    height: auto; 
+}
+
+footer {
+    background-image: url('footer-background.jpg');
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  /* Clase para los dinosaurios acuáticos */
+.acuaticos_texto {
+    font-style: italic;
+    color: #0000FF; /* azul */
+}
+
+.voladores_sombra {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra de texto */
+}

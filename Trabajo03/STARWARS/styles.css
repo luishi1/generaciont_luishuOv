@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Estilos para el Imperio */
+  .imperio {
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #darth-vader {
+    font-size: 2em;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .extras {
+    border: 2px dashed black;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para los Rebeldes */
+  .rebeldes {
+    background-color: blue ;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #luke-skywalker {
+    font-style: italic;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para Apoyo */
+  .apoyo {
+    text-align: center;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  /* Estilos para las Naves */
+  .naves {
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  /* Estilos para los Droides */
+  .droides {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .droides img {
+    display: block;
+    margin: 0 auto;
+  }
+  

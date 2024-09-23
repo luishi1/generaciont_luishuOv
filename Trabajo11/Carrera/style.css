@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#pista {
+    width: 600px;
+    height: 200px;
+    border: 5px solid #000;
+    position: relative;
+    overflow: hidden;
+    background-color: #e0e0e0;
+}
+
+#pista img {
+    width: 50px;
+    height: auto; 
+    position: absolute; 
+    bottom: 0;
+}

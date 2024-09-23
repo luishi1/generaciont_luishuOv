@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typer 3000</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="main text-center p-4 bg-purple rounded shadow">
+      <h2 class="text-light">⌨️ TYPER 3000 ⌨️</h2>
+      <p class="text-light">Escribí la siguiente palabra:</p>
+      <h1 id="randomWord" class="text-light"></h1>
+      <input type="text" id="text" class="form-control mb-3" autocomplete="off" placeholder="Type the word here..." />
+      <p class="time-container text-light">Tiempo restante: <span id="timeSpan">10s</span></p>
+      <p class="score-container text-light">Score: <span id="score">0</span></p>
+    </div>
+    <div id="end-game-container" class="end-game-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

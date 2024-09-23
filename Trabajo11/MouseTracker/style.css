@@ -1,0 +1,11 @@
+body {
+    height: 100vh;
+    background-image: url('https://i.imgur.com/jnCXdAx.jpg');
+    background-size: cover;
+    cursor: none;
+}
+
+#tracker {
+    position: fixed;
+    transition: top 0.1s, left 0.1s; 
+}
